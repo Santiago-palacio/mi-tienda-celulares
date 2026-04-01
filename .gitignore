@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Production
+dist/
+build/
+
+# Database (do not upload our users/sales to github!)
+backend/database.sqlite
+backend/public/images/
+!backend/public/images/.gitkeep
+
+# Environment
+.env
+.env.local
+.DS_Store
